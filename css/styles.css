@@ -1,0 +1,35 @@
+:root {
+--title-text-color: #212121; 
+--primary-text-color: #757575; 
+--accent-text-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--secondary-white-color: #F5F5F5;
+--tertiary-white-color: #F5F4FA;
+--primary-dark-color: #2F303A;
+--contact-footer-color: rgba(255, 255, 255, 0.6);
+--logo-black-color: #000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color:var(--primary-white-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.hero {
+    background-color: var(--primary-dark-color);
+}
+.preference,
+.work {
+    background-color: var(--secondary-white-color);
+}
+.team{
+    background-color: var(--tertiary-white-color);
+}
+footer {
+    background-color: var(--primary-dark-color);
+}
