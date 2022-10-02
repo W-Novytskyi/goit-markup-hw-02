@@ -139,10 +139,11 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.03em;
 }
 .map {
     color: var(--primary-white-color);
+    text-decoration: none;
 }
 .contact-footer {
     color: var(--contact-footer-color);
